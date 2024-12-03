@@ -1,5 +1,6 @@
 temperatura = int(input("Unesite temperaturu: "))
 test_temperatura = -1
+test_temperatura = 35
 test_temperatura = temperatura
 poruka = ""
 if temperatura < 0:
@@ -11,7 +12,7 @@ if temperatura > 0:
         poruka = "Ukljucite klima uredjaj"
 
 
-ocekivana_poruka = "Oprez klizavo"
+ocekivana_poruka = "Ukljucite klima uredjaj"
 if ocekivana_poruka == ocekivana_poruka:
     print("Case - ispod nule - test prosao")
     
